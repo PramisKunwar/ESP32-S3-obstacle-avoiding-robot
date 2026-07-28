@@ -10,6 +10,8 @@
 - Connected an active buzzer for obstacle alerts.
 - Verified that all components shared a common ground and that the L298N was powered by a 12V supply.
 
+![Description of image](Circuit_Image/circuit_image.svg)
+
 ## Day 2 – Firmware & Simulation
 
 - Wrote the firmware for the ESP32-S3 using the Arduino framework.
@@ -18,7 +20,5 @@
 - Programmed the robot to stop, sound the buzzer, reverse for one second, and continue moving when an obstacle is detected within 20 cm.
 - Displayed live distance measurements on the OLED.
 - Tested the complete behavior in the Cirkit Designer simulator and verified that the robot responded correctly to obstacles.
-
-![Description of image](Circuit_Image/circuit_image.svg)
 
 ![Description of image](Circuit_Image/sim2.png)
